@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%; }
+
+a {
+  color: #000;
+  text-decoration: none;
+  line-height: 100%; }
+
+li {
+  list-style: none; }
+
+b, strong {
+  font-weight: normal; }
+
+i, em {
+  font-style: normal; }
+
+.fr {
+  float: right; }
+
+.fl {
+  float: left; }
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+p {
+  line-height: 100%; }
+
+input {
+  outline: none;
+  border: 0;
+  padding: 0;
+  background: none; }
+
+textarea {
+  resize: none; }
+
+img {
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse; }
+
+a:img {
+  vertical-align: top; }

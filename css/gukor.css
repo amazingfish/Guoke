@@ -1,0 +1,272 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 100%; }
+
+a {
+  color: #000;
+  text-decoration: none;
+  line-height: 100%; }
+
+li {
+  list-style: none; }
+
+b, strong {
+  font-weight: normal; }
+
+i, em {
+  font-style: normal; }
+
+.fr {
+  float: right; }
+
+.fl {
+  float: left; }
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+p {
+  line-height: 100%; }
+
+input {
+  outline: none;
+  border: 0;
+  padding: 0;
+  background: none; }
+
+textarea {
+  resize: none; }
+
+img {
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse; }
+
+a:img {
+  vertical-align: top; }
+
+html {
+  font-family: 'Microsoft YaHei'; }
+
+header, .user, .register, .enroll, .answer, .popular_answer, footer, .group_hot, .hot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+header {
+  width: 16rem;
+  height: 2.3rem;
+  background: #262626;
+  border-bottom: 0.1rem solid #4bccae;
+  color: #fff; }
+  header .menu {
+    width: 1.5rem;
+    height: 1.2rem;
+    background: url(../img/menu.png) no-repeat;
+    background-size: 1.5rem 1.2rem;
+    margin-left: 0.4rem;
+    text-indent: -999em; }
+  header .logo {
+    font-size: 0.95rem; }
+  header .pc {
+    width: 1.45rem;
+    height: 1.15rem;
+    background: url(../img/pc-bg.png) no-repeat;
+    background-size: 1.45rem 1.15rem;
+    margin-right: 0.4rem;
+    text-indent: -999em; }
+
+section .user {
+  width: 16rem;
+  height: 2.05rem;
+  border-bottom: 0.025rem solid #d4e6f4;
+  border-top: 0.025rem solid #d4e6f4; }
+  section .user .register, section .user .enroll {
+    width: 8rem;
+    height: 2.05rem;
+    font-size: 0.75rem;
+    color: #7d7d7d;
+    line-height: 2.1rem;
+    margin-right: 1.45rem; }
+    section .user .register .user_upload, section .user .register .user_enroll, section .user .enroll .user_upload, section .user .enroll .user_enroll {
+      width: 1.45rem;
+      height: 1.5rem;
+      background: url(../img/people.png) no-repeat;
+      background-size: 1.45rem 1.5rem;
+      margin-left: 1.45rem;
+      margin-top: 0.4rem; }
+    section .user .register .user_enroll, section .user .enroll .user_enroll {
+      background: url(../img/write.png) no-repeat;
+      background-size: 1.45rem 1.5rem; }
+  section .user .stand {
+    width: 0.05rem;
+    height: 1.5rem;
+    background: url(../img/stand.png) no-repeat;
+    background-size: 0.05rem 1.5rem; }
+
+section .poster .poster_img {
+  position: relative;
+  width: 16rem;
+  height: 7.8rem;
+  background: url(../img/poster.png) no-repeat;
+  background-size: 16rem 7.8rem;
+  display: block; }
+  section .poster .poster_img span {
+    width: 100%;
+    height: 1.85rem;
+    background: #000;
+    position: absolute;
+    top: 5.95rem;
+    left: 0rem;
+    opacity: 0.6; }
+  section .poster .poster_img i {
+    font-size: 0.75rem;
+    color: #fff;
+    position: absolute;
+    top: 6.5rem;
+    right: 3.25rem; }
+
+section .article {
+  width: 16rem;
+  height: 14.5rem;
+  border-bottom: 0.1rem solid #58c1b0; }
+  section .article .article_body .article_text {
+    width: 14.85rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.75rem;
+    color: #292929;
+    padding-left: 0.35rem;
+    margin-left: 0.4rem;
+    border-bottom: 0.05rem solid #ececec;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  section .article .article_body .down {
+    border-bottom: none; }
+
+section .answer, section .hot {
+  width: 16rem;
+  height: 2rem;
+  line-height: 2rem;
+  border-bottom: 0.05rem solid #e2e2e2; }
+  section .answer h2, section .hot h2 {
+    font-size: 0.75rem;
+    margin-left: 0.775rem; }
+  section .answer .more, section .hot .more {
+    width: 1.45rem;
+    height: 1.45rem;
+    background: url(../img/more.png) no-repeat;
+    background-size: 1.45rem 1.45rem;
+    margin-top: 0.25rem;
+    margin-right: 0.75rem; }
+
+section .popular_answer .life, section .popular_answer .fun, section .group_hot .life, section .group_hot .fun {
+  width: 4rem;
+  height: 2.1rem;
+  line-height: 2.1rem;
+  font-size: 0.75rem;
+  color: #333;
+  text-align: center;
+  border-bottom: 0.05rem solid #e2e2e2; }
+
+section .popular_answer .cli, section .group_hot .cli {
+  border-bottom: 0.1rem solid #dc3d5b; }
+
+section .answer_box, section .hot_box {
+  border-bottom: 0.1rem solid #58c1b0; }
+  section .answer_box ul .science, section .hot_box ul .science {
+    width: 15.7rem;
+    height: 2rem;
+    line-height: 2rem;
+    margin-left: 0.4rem;
+    padding-left: 0.3rem;
+    border-bottom: 0.05rem solid #ececec;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+    section .answer_box ul .science a, section .hot_box ul .science a {
+      font-size: 0.7rem;
+      color: #232726; }
+  section .answer_box ul .box_first, section .hot_box ul .box_first {
+    width: 15.7rem;
+    height: 6.5rem;
+    border-bottom: 0.05rem solid #ececec; }
+    section .answer_box ul .box_first h2, section .hot_box ul .box_first h2 {
+      font-size: 0.7rem;
+      color: #282828;
+      margin-top: 0.65rem; }
+    section .answer_box ul .box_first .box_text, section .hot_box ul .box_first .box_text {
+      font-size: 0.65rem;
+      color: #8a8a8a;
+      margin-top: 0.65rem;
+      display: flex;
+      justify-content: row; }
+      section .answer_box ul .box_first .box_text span, section .hot_box ul .box_first .box_text span {
+        display: inline-block;
+        width: 5.2rem;
+        height: 3.7rem;
+        background: url(../img/huixing.png) no-repeat;
+        background-size: 5.2rem 3.7rem; }
+      section .answer_box ul .box_first .box_text i, section .hot_box ul .box_first .box_text i {
+        width: 8.3rem;
+        height: 3.25rem;
+        line-height: 1.25rem;
+        margin-left: 0.7rem; }
+  section .answer_box .back_top, section .hot_box .back_top {
+    width: 100%;
+    height: 3rem;
+    display: block;
+    background: #fafafa;
+    text-align: center;
+    font-size: 0.65rem;
+    color: #88878c; }
+    section .answer_box .back_top .back_img, section .hot_box .back_top .back_img {
+      width: 5rem;
+      height: 1.5rem;
+      display: inline-block;
+      background: url(../img/back.png) no-repeat;
+      background-size: 1.5rem 1.5rem;
+      margin-top: 0.9rem;
+      padding: 0.5rem; }
+
+footer {
+  width: 16rem;
+  height: 3.75rem;
+  background: #262626;
+  text-align: center; }
+  footer .foot_pc, footer .foot_phone {
+    font-size: 0.75rem;
+    color: #c9c9c9;
+    line-height: 1.15rem; }
+  footer .foot_pc {
+    width: 3.85rem;
+    height: 1.15rem;
+    background: url(../img/foot_pc.png) no-repeat;
+    background-size: 1.45rem 1.15rem;
+    margin-left: 2.05rem; }
+    footer .foot_pc span {
+      margin-left: 1.325rem; }
+  footer .foot_phone {
+    width: 4.35rem;
+    height: 1.15rem;
+    background: url(../img/foot_phone.png) no-repeat;
+    background-size: 0.65rem 1.15rem;
+    margin-right: 1.9rem; }
+    footer .foot_phone span {
+      margin-left: 0.6rem; }
+  footer .cut_line {
+    width: 0.05rem;
+    height: 1.95rem;
+    background: url(../img/cut_line.png) no-repeat;
+    background-size: 0.05rem 1.95rem; }
